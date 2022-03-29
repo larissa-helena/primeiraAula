@@ -1,0 +1,76 @@
+body{
+    font-family: 'Press Start 2P';
+    background: rgb(189, 187, 187);
+    background-image: url(../primeiraAula/giphy.gif);
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+    margin-top: 200px;
+    letter-spacing: 3px;
+}
+
+.digitar{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Press Start 2P'}
+
+p{
+    text-align: center;
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+
+.containerInput{
+    padding: 10px;
+    width: 100px;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+span{
+    padding: 20px;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    width: 7%;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.button:hover{
+    transform: scale(1.09);
+}

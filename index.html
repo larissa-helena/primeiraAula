@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Digite seus números</h1>
+        <div class="containerInputs">
+            <div class="containerInput">
+                <input type="text" id="primeiroNumero" class="digitar" />
+            </div>
+            <span>+</span>
+            <div class="containerInput">
+                <input type="text" id="segundoNumero" class="digitar" />
+            </div>
+        </div>
+        <div class="containerButton">
+            <input type="button" onClick="soma()" value="Somar" class="button"/>
+        </div>
+        <p id="texto">:)</p>
+    </div>
+
+</body>
+
+</html>
